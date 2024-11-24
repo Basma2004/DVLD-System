@@ -47,8 +47,8 @@ namespace DVLD_Basma_19
 
             //incase there is license enable the show link.
             //llShowLicenceInfo.Enabled = (_LicenseID != -1);
-            
-            //lblPassedTests.Text = _LocalDrivingLicenseApplication.GetPassedTestCount().ToString() + "/3";
+
+            lblPassedTests.Text = _LocalDrivingLicenseApplication.GetPassedTestCount().ToString() + "/3";
 
             _LocalDrivingLicenseApplicationID = _LocalDrivingLicenseApplication.LocalDrivingLicenseApplicationID;
             lblLocalDrivingLicenseApplicationID.Text = _LocalDrivingLicenseApplication.LocalDrivingLicenseApplicationID.ToString();

@@ -30,12 +30,12 @@
         {
             this.ctrlPersonCard1 = new DVLD_Basma_19.ctrlPersonCard();
             this.gbLoginInfo = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblUserID = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblUserName = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.lblIsActive = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblUserName = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblUserID = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.gbLoginInfo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,45 +63,15 @@
             this.gbLoginInfo.TabStop = false;
             this.gbLoginInfo.Text = "Login Information";
             // 
-            // label1
+            // lblIsActive
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(107, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "User ID : ";
-            // 
-            // lblUserID
-            // 
-            this.lblUserID.AutoSize = true;
-            this.lblUserID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserID.Location = new System.Drawing.Point(199, 39);
-            this.lblUserID.Name = "lblUserID";
-            this.lblUserID.Size = new System.Drawing.Size(49, 20);
-            this.lblUserID.TabIndex = 1;
-            this.lblUserID.Text = "????";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(293, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "User Name : ";
-            // 
-            // lblUserName
-            // 
-            this.lblUserName.AutoSize = true;
-            this.lblUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserName.Location = new System.Drawing.Point(412, 39);
-            this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(49, 20);
-            this.lblUserName.TabIndex = 3;
-            this.lblUserName.Text = "????";
+            this.lblIsActive.AutoSize = true;
+            this.lblIsActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIsActive.Location = new System.Drawing.Point(596, 39);
+            this.lblIsActive.Name = "lblIsActive";
+            this.lblIsActive.Size = new System.Drawing.Size(49, 20);
+            this.lblIsActive.TabIndex = 5;
+            this.lblIsActive.Text = "????";
             // 
             // label3
             // 
@@ -113,15 +83,45 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Is Active : ";
             // 
-            // lblIsActive
+            // lblUserName
             // 
-            this.lblIsActive.AutoSize = true;
-            this.lblIsActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIsActive.Location = new System.Drawing.Point(596, 39);
-            this.lblIsActive.Name = "lblIsActive";
-            this.lblIsActive.Size = new System.Drawing.Size(49, 20);
-            this.lblIsActive.TabIndex = 5;
-            this.lblIsActive.Text = "????";
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserName.Location = new System.Drawing.Point(412, 39);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(49, 20);
+            this.lblUserName.TabIndex = 3;
+            this.lblUserName.Text = "????";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(293, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(113, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "User Name : ";
+            // 
+            // lblUserID
+            // 
+            this.lblUserID.AutoSize = true;
+            this.lblUserID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserID.Location = new System.Drawing.Point(199, 39);
+            this.lblUserID.Name = "lblUserID";
+            this.lblUserID.Size = new System.Drawing.Size(49, 20);
+            this.lblUserID.TabIndex = 1;
+            this.lblUserID.Text = "????";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(107, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "User ID : ";
             // 
             // ctrlUserCard
             // 
